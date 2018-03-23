@@ -1,0 +1,22 @@
+{
+  "name": "vue-stickto",
+  "version": "0.0.1",
+  "description": "A vue directive/component that support multiple DOM Node stick to top automatically (支持多DOM元素自动吸顶的vue库)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JALBAA/vue-stickto.git"
+  },
+  "author": "=.=",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JALBAA/vue-stickto/issues"
+  },
+  "homepage": "https://github.com/JALBAA/vue-stickto#readme",
+  "dependencies": {
+    "stickto": "0.0.1"
+  }
+}
