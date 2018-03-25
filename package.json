@@ -1,7 +1,7 @@
 {
   "name": "vue-stickto",
   "version": "0.0.1",
-  "description": "A vue directive/component that support multiple DOM Node stick to top automatically (支持多DOM元素自动吸顶的vue库)",
+  "description": "A vue directive/component that support multiple DOM Node stick to top automatically (一个支持多DOM元素自动吸顶的vue指令)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +10,24 @@
     "type": "git",
     "url": "git+https://github.com/JALBAA/vue-stickto.git"
   },
-  "author": "=.=",
+  "author": "jalbaa",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JALBAA/vue-stickto/issues"
   },
   "homepage": "https://github.com/JALBAA/vue-stickto#readme",
   "dependencies": {
-    "stickto": "0.0.1"
+    "stickto": "0.0.2",
+    "uglifyjs-webpack-plugin": "^1.2.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.11.0"
   }
 }
