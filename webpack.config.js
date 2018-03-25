@@ -4,7 +4,7 @@ module.exports = {
     entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'build.js',
+        filename: 'VueStickto.js',
         library: 'VueStickto',
         libraryTarget: 'umd',
     },

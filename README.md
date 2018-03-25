@@ -32,3 +32,8 @@ Vue.use(VueStickto)
 ```
 
 3. see the result
+
+
+# If you're using script tag to import
+
+copy the `dist/VueStickto.js` to the place wherever you want and `<script src="[path]Vuestickto.js"/>`

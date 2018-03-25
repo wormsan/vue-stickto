@@ -30,3 +30,7 @@ Vue.use(VueStickto)
 ```
 
 3. 查看效果
+
+# 如果你没有使用commonjs
+
+把`dist/VueStickto.js`复制到你需要的地方，然后通过标签引入`<script src="[path]Vuestickto.js"/>`
