@@ -1,6 +1,6 @@
 {
   "name": "vue-stickto",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A vue directive/component that support multiple DOM Node stick to top automatically (一个支持多DOM元素自动吸顶的vue指令)",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/JALBAA/vue-stickto#readme",
   "dependencies": {
-    "stickto": "0.0.2"
+    "stickto": "~0.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
